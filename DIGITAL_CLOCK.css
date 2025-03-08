@@ -1,0 +1,31 @@
+body {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.watch {
+  --watch-color: #ffffff; /* warna utama teks */
+  --screen-color: black; /* warna layar */
+  font-size: 4.5vmin;
+  font-family: monospace;
+  color: var(--watch-color); /* warna teks */
+  padding: 2em 1.5em;
+  position: relative;
+  background-color: var(--screen-color);
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+pre {
+  margin: 0;
+  color: var(--watch-color); /* warna teks */
+}
